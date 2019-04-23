@@ -1,0 +1,5 @@
+<ul class="colors">
+  {% for color in model.colors %}
+  <li style="background-color: {{ color.value }};">{{ color.name }}</li>
+  {% endfor %}
+</ul>

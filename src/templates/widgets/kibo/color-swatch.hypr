@@ -1,0 +1,7 @@
+
+<div class="widget--color-swatch">
+  {% include "widgets/kibo/color-swatch-interior" %}
+</div>
+
+{% preload_json model.config "kiboWidgetColorSwatchConfig" %}
+{% require_script "widgets/kibo/color-swatch" %}
